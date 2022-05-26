@@ -4,7 +4,7 @@
         return sequelize.define('pelicula',{
 
             id:{
-
+ 
                 type:type.INTEGER,
                 primaryKey:true,
                 autoIncrement:true

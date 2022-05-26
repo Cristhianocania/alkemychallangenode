@@ -6,6 +6,9 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}))  //configuracion para que reciba peticiones 
 
+
+require('./db');
+
 app.get('/', (req,res) => {
 
     res.send("HOLA MUNDO!!")
