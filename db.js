@@ -1,13 +1,13 @@
 const Sequelize = require ('sequelize');
-const peliculaModelo = require('./models/peliculas') //traigo el modelo
+const peliculaModelo = require('./models/peliculas') 
 const generoModelo =  require('./models/generos')
 const personajeModelo = require('./models/personajes')
 const usuarioModelo = require('./models/usuarios')
 
 
-const sequelize = new Sequelize ('sql10495095','sql10495095','sebastian',{
+const sequelize = new Sequelize ('sql3495487','sql3495487','AN5AhPCw41',{
 
-    host:'sql10.freesqldatabase.com	',
+    host:'sql3.freesqldatabase.com',
     dialect:'mysql'
 }); //bdd,username,pass y objeto con diferentes opciones
 

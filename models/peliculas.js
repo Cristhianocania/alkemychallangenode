@@ -16,7 +16,7 @@
                 type:type.STRING
             },
             calificacion:{
-                type:type.ENUM[1,2,3,4,5]
+                type:type.INTEGER
 
             }
 
